@@ -34,7 +34,7 @@ describe('js alert ', () => {
         // cy.on('window:prompt', function(evt){
         //     cy.stub($promptelement, "prompt").returns("Hello");
         // })
-
+        // ??chnage 2
         cy.window().then(function($promptelement){   // for prompt-type alert
 
             cy.stub($promptelement, "prompt").returns("Hello");
