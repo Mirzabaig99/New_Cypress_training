@@ -21,7 +21,6 @@ let firstTime = true;
 beforeEach(function () {
 
     cy.log('--This is index.js')
-    cy.visit("https://testautomationpractice.blogspot/");
 
 })
 
