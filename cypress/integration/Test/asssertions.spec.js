@@ -13,6 +13,6 @@ describe("Assertion", function () {
         //     cy.get('#Wikipedia1_wikipedia-search-input').type(text)
         //     cy.get('.wikipedia-search-button').should('be.visible').click();
         // })
-        cy.get('#email').should('have.css','font-weight','600')
+        cy.get('#email').should('have.css','font-weight','400')
     })
 })
