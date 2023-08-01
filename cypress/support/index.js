@@ -21,20 +21,7 @@ let firstTime = true;
 beforeEach(function () {
 
     cy.log('--This is index.js')
-    cy.visit("https://testautomationpractice.blogspot/");
-
-    cy.once('fail', (err) => {
-        isError = true;
-        throw err;
-    });
-    if (isError) {
-        cy.resetAll();
-    }
-    if (firstTime || isError) {
-        firstTime = false;
-        isError = false;
-        // setupMyBackend()
-    }
+    // cy.visit("https://testautomationpractice.blogspot/")
 })
 
 // Alternatively you can use CommonJS syntax:
