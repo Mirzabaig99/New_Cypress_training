@@ -22,7 +22,6 @@ require('cypress-xpath');
 beforeEach(function () {
 
     cy.log('--This is index.js')
-    // cy.visit("https://testautomationpractice.blogspot/")
 })
 
 // Alternatively you can use CommonJS syntax:
