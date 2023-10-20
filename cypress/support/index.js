@@ -17,6 +17,7 @@
 import './commands'
 let isError = false;
 let firstTime = true;
+require('cypress-xpath');
 
 beforeEach(function () {
 
