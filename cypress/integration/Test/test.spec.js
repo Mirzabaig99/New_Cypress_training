@@ -18,5 +18,9 @@ describe("Cypress Course", function () {
     it('invoke test', function(){
         cy.get('#register-now').invoke('val').should('eq','');
         cy.get('#register-now').invoke('show').click();
+        cy.PageinationClick(1)
+        cy.PageinationClick(2)
+        cy.PageinationClick(3)        
+
     })
 })

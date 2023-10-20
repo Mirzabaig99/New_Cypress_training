@@ -1,5 +1,5 @@
 {
     "Link": "https://docs.cypress.io/guides/guides/command-line#:~:text=cypress%20run%20%2D%2Dheaded%20%E2%80%8B,any%20browser%20via%20cypress%20open%20.",
     "headless": "npx cypress run -spec cypress/integration/Test/invoke.spec.js",
-    "heaedwithbrowser": "npx cypress run -spec cypress/integration/Test/invoke.spec.js --browser firefox  --headed"
+    "heaedwithbrowser": "npx cypress run -spec cypress/integration/**/*.Imp.spec.js --browser chrome  --headed"
 }

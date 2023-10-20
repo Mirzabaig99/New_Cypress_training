@@ -17,11 +17,11 @@
 import './commands'
 let isError = false;
 let firstTime = true;
+require('cypress-xpath');
 
 beforeEach(function () {
 
     cy.log('--This is index.js')
-
 })
 
 // Alternatively you can use CommonJS syntax:

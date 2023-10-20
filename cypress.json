@@ -5,8 +5,8 @@
     "url": "https://lambdageeks.com/",
     "chromeWebSecurity": false,
     "retries": {
-        "runMode": 2,
-        "openMode": 1
+        "runMode": 0,
+        "openMode": 0
     },
     "reporter": "cypress-mochawesome-reporter"
 }
