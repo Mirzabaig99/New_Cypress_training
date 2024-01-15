@@ -1,12 +1,12 @@
 {
     "projectId": "jq7nuo",
-    "requestTimeout": 80000,
+    "requestTimeout": 5000,
     "pageLoadTimeout": 80000,
     "url": "https://lambdageeks.com/",
     "chromeWebSecurity": false,
     "retries": {
-        "runMode": 0,
-        "openMode": 0
+        "runMode": 1,
+        "openMode": 1
     },
     "reporter": "cypress-mochawesome-reporter"
 }

@@ -15,13 +15,25 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-mochawesome-reporter/register';
 let isError = false;
 let firstTime = true;
 require('cypress-xpath');
+// before(()=>{
+//     cy.visit("https://testautomationpractice.blogspot.com/");
+// })
 
-beforeEach(function () {
+// after(()=>{
+//     cy.log("Hooks Example is finisned")
+// })
+
+// beforeEach(()=>{
+//     cy.log("Before each Example from index file")
+//    })
+// beforeEach(function () {
 
     cy.log('--This is index.js')
+    // cy.visit("https://testautomationpractice.blogspot/")
 })
 
 // Alternatively you can use CommonJS syntax:

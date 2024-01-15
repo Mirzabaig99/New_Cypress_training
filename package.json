@@ -2,10 +2,14 @@
   "dependencies": {
     "cypress": "8.7.0",
     "cypress-iframe": "^1.0.1",
-    "cypress-mochawesome-reporter": "^3.5.1",
     "cypress-xpath": "^2.0.1"
   },
   "scripts": {
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "PreScript": "",
+    "MyRegTest": "npx cypress run -spec cypress/integration/Test-1/*.Reg.spec.js"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.0"
   }
 }

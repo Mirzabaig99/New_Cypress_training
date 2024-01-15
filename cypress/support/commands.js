@@ -30,7 +30,7 @@ Cypress.Commands.add('clickdetails', () => {
 })
 
 Cypress.Commands.add('PageinationClick', (number) => {
-    cy.wait(1000);
+    cy.wait(500);
     cy.get(".pagination>li:nth-child(" + number + ")").click()
 })
 
