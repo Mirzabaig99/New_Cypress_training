@@ -44,12 +44,19 @@ describe('template spec', () => {
         })
     })
 
-    it.only('Delete example',()=>{
-        cy.request('DELETE','https://reqres.in/api/users').then(function(response){
+    it('PUT example', () => {
+        cy.request('PUT', 'https://reqres.in/api/users/2', {
+            "id": "1000",
+            "email": "xyz.gmail.com"
+        }).then(function (response) {
+            expect(response.status).to.eq(200)
+            expect(response.body.id).to.eq("1000")
+        })
+    })
+
+    it.only('Delete example', () => {
+        cy.request('DELETE', 'https://reqres.in/api/users').then(function (response) {
             expect(response.status).to.eq(204)
         })
-    } )
-    //changes
-    
-
+    })
 })
